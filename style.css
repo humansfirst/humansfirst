@@ -515,7 +515,8 @@ input:required {
     padding: 0; }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar .nav-brand {
-        max-width: 90px;
+        max-width: 135px;
+        height: 57px;
         margin-right: 15px; } }
     .classy-nav-container .classy-navbar .classynav ul li a {
       font-size: 16px;
@@ -674,7 +675,10 @@ input:required {
       height: 600px; } }
   .single-welcome-slide .welcome-text {
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+    padding-top: 100px;
+    margin-top: -50px;}
+
     .single-welcome-slide .welcome-text h2 {
       font-weight: 700;
       font-size: 82px;
